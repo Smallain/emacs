@@ -18,7 +18,7 @@
 				 nodejs-repl
 				 exec-path-from-shell
 				 popwin
-				 
+				 helm-ag
 				 )  "Default packages")
 
 (setq package-selected-packages zilongshanren/packages)
@@ -61,6 +61,6 @@
 (load-theme 'monokai t)
 
 (require 'popwin)    ;;when require, wh(setq company-minimum-prefix-length 1)en not require
-(popwin-mode t)
+(popwin-mode 1)
 
 (provide 'init-packages)
